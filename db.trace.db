@@ -1,0 +1,6 @@
+2020-09-27 21:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER(ID, EMAIL, NAME) VALUES(1,'lab@gmail.com,'LAB[*]'') "; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+insert into user(id, email, name) values(1,'lab@gmail.com,'lab'') [42001-190]
+2020-09-27 21:48:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "insert into user(id, email, name) values(1,'lab@gmail.com','lab'[*]');"; SQL statement:
+insert into user(id, email, name) values(1,'lab@gmail.com','lab''); [42000-190]
